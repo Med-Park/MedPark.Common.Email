@@ -50,7 +50,7 @@ steps:
 - task: NugetVersionUpdater@1
   inputs:
     maxIncrement: 10
-    packageName: "MedPark.Common"
+    packageName: "MedPark.Common.Email"
     pipelineVariable: 'packageVersion'
 
 - task: NuGetCommand@2
