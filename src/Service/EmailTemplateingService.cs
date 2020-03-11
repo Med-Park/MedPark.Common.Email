@@ -6,7 +6,7 @@ using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MedPark.EmailTemplates.Service
+namespace MedPark.Common.Email
 {
     public class EmailTemplateingService : IEmailTemplateingService
     {

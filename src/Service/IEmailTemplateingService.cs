@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MedPark.EmailTemplates.Service
+namespace MedPark.Common.Email
 {
     public interface IEmailTemplateingService
     {
