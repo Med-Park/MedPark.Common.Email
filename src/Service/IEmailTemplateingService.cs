@@ -7,6 +7,6 @@ namespace MedPark.Common.Email
 {
     public interface IEmailTemplateingService
     {
-        Task<string> LoadTemplate(string name);
+        string LoadTemplate(string name);
     }
 }

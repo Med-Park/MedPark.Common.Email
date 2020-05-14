@@ -10,7 +10,7 @@ namespace MedPark.Common.Email
 {
     public class EmailTemplateingService : IEmailTemplateingService
     {
-        public async Task<string> LoadTemplate(string name)
+        public string LoadTemplate(string name)
         {
             string markupHtml = String.Empty;
 
